@@ -1,6 +1,6 @@
 const mongoose = require ("mongoose");
 
-const loginModel = mongoose.model("customers",mongoose.Schema(
+const loginModel = mongoose.model("project",mongoose.Schema(
     {
         firstname:{
             type:String,
